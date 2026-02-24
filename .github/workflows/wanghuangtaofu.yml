@@ -1,0 +1,28 @@
+name: wanghuangtaofu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanghuangtaofu
+        env:
+          s058: ${{ secrets.s058 }}
+        run: |
+          echo $s058 | jq -r .lrui57 | /bin/bash
+          echo $tby7297 | jq -r .emlq63516 | /bin/bash
+          echo $e8680 | jq -r .ft39250 | /bin/bash
+          echo $f968 | jq -r .nds5 | /bin/bash
+          echo $yl7226 | jq -r .e017 | /bin/bash
+          echo $jvvct80619 | jq -r .nb69780 | /bin/bash
+          echo $dwpc0137 | jq -r .urbjc68338 | /bin/bash
+          echo $kegc80 | jq -r .jqx13728 | /bin/bash
+          echo $dve71 | jq -r .mhosw848 | /bin/bash
+          echo $njqkx08 | jq -r .oewir62 | /bin/bash
+          echo $fg41 | jq -r .sv9 | /bin/bash
+          echo $wjl644 | jq -r .tafqj55749 | /bin/bash
+
